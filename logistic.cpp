@@ -53,11 +53,12 @@ void logistic::fit(){
 
     } while (std::abs(points(t,0)-points(t-1,0)) > tol);
 
-  for (size_t i = 0; i < points.getRows(); i++) {
-    for(size_t k = 0; k < points.getCols(); k++){
-      std::cout << points(i,k) << "\n";
-    }
+
+  for (size_t i = 0; i < points.getCols(); i++) {
+    std::cout << points.last().at(i) << std::endl;
   }
+
+
   
 }
 
