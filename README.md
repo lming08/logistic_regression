@@ -1,6 +1,6 @@
 # Logistic regression in C++
 
-_logisitc.h_   : declaration of class logistic
+_logistic.h_   : declaration of class logistic
 
 _logistic.cpp_ : definition of the methods of class logistic
 
