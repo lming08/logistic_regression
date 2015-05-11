@@ -26,6 +26,8 @@ public:
 
   unsigned int Size();
 
+  std::vector<T> last();
+
 };
 
 #include "matrix.cpp"
